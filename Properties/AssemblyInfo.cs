@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("Borderless Gaming")]
-[assembly: AssemblyDescription("Play your favorite games in a borderless window; no more time consuming alt-tabs")]
+[assembly: AssemblyDescription("Play your favorite games in a borderless window; no more time-consuming Alt-Tabs!")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Codeusa Software")]
-[assembly: AssemblyProduct("BorderlessGaming")]
-[assembly: AssemblyCopyright("Copyright © 2014")]
+[assembly: AssemblyCompany("Andrew Sampson")]
+[assembly: AssemblyProduct("Borderless Gaming")]
+[assembly: AssemblyCopyright("Copyright © 2014-2018 Andrew Sampson")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -35,6 +35,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("6.0.0.0")]
-[assembly: AssemblyFileVersion("6.0.0.0")]
+
+[assembly: AssemblyVersion("9.3.53315.1328")]
+[assembly: AssemblyFileVersion("9.3.53315.1328")]
 [assembly: NeutralResourcesLanguage("en-US")]

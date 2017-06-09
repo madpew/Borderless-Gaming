@@ -118,10 +118,53 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="_steamGroupLabel.Text" xml:space="preserve">
-    <value>Steam Gruppe:</value>
+  <data name="contextAddToFavs.Text" xml:space="preserve">
+    <value>Zu Favoriten hinzufügen</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
+  <data name="contextBorderless.Text" xml:space="preserve">
+    <value>Vollbild aktivieren</value>
+  </data>
+  <data name="contextBorderlessOn.Text" xml:space="preserve">
+    <value>Vollbild auf..</value>
+  </data>
+  <data name="contextRemoveFromFavs.Text" xml:space="preserve">
+    <value>Aus Favoriten entfernen</value>
+  </data>
+  <data name="processLabel.Text" xml:space="preserve">
+    <value>Prozesse:</value>
+  </data>
+  <data name="favoritesLabel.Text" xml:space="preserve">
+    <value>Favoriten:</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="toolStripOptions.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="toolStripRunOnStartup.Text" xml:space="preserve">
+    <value>Automatisch starten</value>
+  </data>
+  <data name="toolStripCheckForUpdates.Text" xml:space="preserve">
+    <value>Beim Start nach Updates suchen</value>
+  </data>
+
+  <data name="toolStripGlobalHotkey.Text" xml:space="preserve">
+    <value>Globalen Hotkey verwenden (WIN+F6)</value>
+  </data>
+  <data name="toolStripMouseLock.Text" xml:space="preserve">
+    <value>CursorSperre-Hotkey verwenden (Rollen)</value>
+  </data>
+  <data name="toolStripReportBug.Text" xml:space="preserve">
+    <value>Fehler melden</value>
+  </data>
+  <data name="toolStripSupportUs.Text" xml:space="preserve">
+    <value>Unterstützt uns</value>
+  </data>
+  <data name="toolStripAbout.Text" xml:space="preserve">
     <value>Über...</value>
   </data>
 </root>

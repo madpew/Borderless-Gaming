@@ -1,7 +1,5 @@
 ﻿namespace BorderlessGaming.Forms
 {
-    using BorderlessGaming.Properties;
-
     partial class AboutForm
     {
         /// <summary>
@@ -53,6 +51,11 @@
             this._codeusaSoftwareLogo = new System.Windows.Forms.PictureBox();
             this._madpewGithubGlobe = new System.Windows.Forms.PictureBox();
             this._madpewNametag = new System.Windows.Forms.Label();
+            this._psouza4Nametag = new System.Windows.Forms.Label();
+            this._psouza4GithubGlobe = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this._SecretOnlineNametag = new System.Windows.Forms.Label();
+            this._SecretOnlineGithubGlobe = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this._ownerGithubGlobe)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._dmxtGithubGlobe)).BeginInit();
@@ -60,6 +63,9 @@
             ((System.ComponentModel.ISupportInitialize)(this._stackOfPancakesGithubGlobe)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._codeusaSoftwareLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._madpewGithubGlobe)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._psouza4GithubGlobe)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._SecretOnlineGithubGlobe)).BeginInit();
             this.SuspendLayout();
             // 
             // versionLabel
@@ -146,7 +152,9 @@
             // _impulserNameTag
             // 
             resources.ApplyResources(this._impulserNameTag, "_impulserNameTag");
+            this._impulserNameTag.Cursor = System.Windows.Forms.Cursors.Hand;
             this._impulserNameTag.Name = "_impulserNameTag";
+            this._impulserNameTag.Click += new System.EventHandler(this._impulserNameTag_Click);
             // 
             // _stackOfPancakesGithubGlobe
             // 
@@ -197,10 +205,49 @@
             resources.ApplyResources(this._madpewNametag, "_madpewNametag");
             this._madpewNametag.Name = "_madpewNametag";
             // 
+            // _psouza4Nametag
+            // 
+            resources.ApplyResources(this._psouza4Nametag, "_psouza4Nametag");
+            this._psouza4Nametag.Name = "_psouza4Nametag";
+            // 
+            // _psouza4GithubGlobe
+            // 
+            resources.ApplyResources(this._psouza4GithubGlobe, "_psouza4GithubGlobe");
+            this._psouza4GithubGlobe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this._psouza4GithubGlobe.Name = "_psouza4GithubGlobe";
+            this._psouza4GithubGlobe.TabStop = false;
+            this._psouza4GithubGlobe.Click += new System.EventHandler(this.OpenPsouza4Github);
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.OpenPsouza4Steam);
+            // 
+            // _SecretOnlineNametag
+            // 
+            resources.ApplyResources(this._SecretOnlineNametag, "_SecretOnlineNametag");
+            this._SecretOnlineNametag.Name = "_SecretOnlineNametag";
+            // 
+            // _SecretOnlineGithubGlobe
+            // 
+            resources.ApplyResources(this._SecretOnlineGithubGlobe, "_SecretOnlineGithubGlobe");
+            this._SecretOnlineGithubGlobe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this._SecretOnlineGithubGlobe.Name = "_SecretOnlineGithubGlobe";
+            this._SecretOnlineGithubGlobe.TabStop = false;
+            this._SecretOnlineGithubGlobe.Click += new System.EventHandler(this.OpenSecretOnlineGithub);
+            // 
             // AboutForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this._SecretOnlineNametag);
+            this.Controls.Add(this._SecretOnlineGithubGlobe);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this._psouza4Nametag);
+            this.Controls.Add(this._psouza4GithubGlobe);
             this.Controls.Add(this._madpewNametag);
             this.Controls.Add(this._madpewGithubGlobe);
             this.Controls.Add(this._codeusaSoftwareLogo);
@@ -235,6 +282,9 @@
             ((System.ComponentModel.ISupportInitialize)(this._stackOfPancakesGithubGlobe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._codeusaSoftwareLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._madpewGithubGlobe)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._psouza4GithubGlobe)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._SecretOnlineGithubGlobe)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,5 +314,10 @@
         private System.Windows.Forms.PictureBox _codeusaSoftwareLogo;
         private System.Windows.Forms.PictureBox _madpewGithubGlobe;
         private System.Windows.Forms.Label _madpewNametag;
+        private System.Windows.Forms.Label _psouza4Nametag;
+        private System.Windows.Forms.PictureBox _psouza4GithubGlobe;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label _SecretOnlineNametag;
+        private System.Windows.Forms.PictureBox _SecretOnlineGithubGlobe;
     }
 }
